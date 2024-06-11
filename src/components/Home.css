@@ -1,0 +1,467 @@
+/* src/components/HomePage.css */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+
+.home-page {
+    display: flex;
+    flex-direction: column;
+    z-index: 0;
+
+
+
+
+
+    height: 100vh;
+    width:230vh;
+    position: absolute;
+
+    background-size: cover;
+    background: var(--background-color);
+    overflow: hidden;
+    font-family: 'Press Start 2P', cursive; /* Apply the custom font */
+}
+.nav-section {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+
+
+    right: 0%;
+
+     padding: 10px;
+    position: relative;
+
+     background-color: rgba(45, 45, 45, 0.8); /* Semi-transparent background */
+ }
+.about-me-title{
+    font-size: 1.1rem;
+    color: var(--accent2-color);
+}
+
+.profile-section {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.skyline{
+
+    position: relative;
+
+    top: -35%;
+    right: 200%;
+    scale: 50%;
+    width: auto;
+    overflow: hidden;
+
+
+    height: max-content;
+
+
+
+}
+.file-cabinet{
+
+    scale: 140%;
+    position:absolute;
+    top:60%;
+
+}
+
+
+.profile-photo {
+    border-radius: 10%;
+    width: 150px;
+
+    margin: 40px;
+    position: fixed;
+
+
+
+
+
+
+
+
+}
+.about-me{
+    position: fixed;
+
+    width: 600px;
+    line-height: 1.5;
+    text-align: start;
+    left: -5%;
+    elevation: 100deg;
+    box-shadow: black;
+    align-content: center;
+    top:50%;
+    height: 100px;
+    border-radius: 20px;
+
+    background-color: var(--secondary-color);
+
+    padding: 50px;
+    margin: 100px;
+    font-size: .8rem;
+
+    color: var(--text-color);
+}
+.contact-title{
+    color: var(--accent-color);
+    font-size: 1.5rem;
+
+    margin-top: 10px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 30px;
+
+
+
+}
+
+/*skills section
+vertical-layout2: name/occupation/location section
+
+
+*/
+.vertical-layout {
+    position: fixed;
+    display: flex;
+
+    border-radius: 20px;
+    background-color: var(--accent2-color);
+    margin-top: -6%;
+    grid-template-rows: repeat(3, 1fr);
+    left: 2%;
+    height: 32vh;
+    width: 55vh;
+
+    text-align: start;
+    line-height: 1.4;
+    top:33%;
+
+
+}
+.linkedin{
+    width: 100px;
+    font-size: .7rem;
+}
+
+.contact-content{
+    font-size: .8rem;
+    position: fixed;
+    line-height: 1.0;
+
+    margin-left: 30px;
+    top: 30%;
+    z-index: 1;
+
+    height: 32vh;
+    width: 85vh;
+    color: var(--secondary-color);
+
+}
+
+
+/*skills section*/
+.vertical-layout3{
+    position: fixed;
+    align-items: start;
+    align-content: start;
+    text-align: start;
+    font-size: .7rem;
+    border-radius: 20px;
+    right: 1%;
+
+    background-color: #7be934;
+
+
+
+    width: 65vh;
+    height: 50vh;
+    top:20%;
+    line-height: 1.4;
+    color: var(--accent-color);
+}
+.skills-content{
+    margin-left: 40px;
+
+    position: absolute;
+
+
+}
+.main-section{
+    background-color: #92fbff;
+    width: 100%;
+
+}
+.profile-text {
+    font-size: 2.0rem;
+    text-align: center;
+    width: 800px;
+    top: 15%;
+    text-space: 30px;
+    position: absolute;
+    color: var(--primary-color);
+    left: 10%;
+
+
+}
+
+.image-button {
+
+    left: 20%;
+    position: relative;
+    bottom:20%;
+    cursor: pointer;
+}
+.vertical-layout2{
+    position: fixed;
+
+    margin-left: 200px;
+    top: 5%;
+
+}
+.occupation{
+    position:absolute;
+    font-size: 0.9rem ;
+    right: 92.5%;
+    margin-top: 45px;
+    top: 37%;
+
+    color: var(--secondary-color);
+}
+.location{
+    position: absolute;
+    right: 92.5%;
+    color: var(--secondary-color);
+}
+
+.go-to-vs{
+    position: fixed;
+    top:37%;
+
+    margin: 50px;
+    padding: 50px;
+    right: 30%;
+
+
+}
+
+
+.image-button img {
+    position: fixed;
+    width: 200px;
+    height: auto;
+    top: 50%;
+    left: 30%;
+
+
+}
+.image-button-container {
+    position:absolute;
+    display: inline-block;
+    cursor: pointer;
+    top:35%;
+    left: 125%;
+
+    margin: 10px;
+
+}
+
+.image-button {
+    position: relative;
+    scale: 180%;
+    top: 50%;
+    left: 0%;
+
+
+
+}
+
+.button-text {
+    position:absolute;
+    top: 60%;
+    left: 50%;
+    width: 200px;
+    line-height: 1.4;
+    margin: 4px;
+
+    transform: translate(-50%, -50%);
+    color: #26044d;
+    font-size: 13px;
+    font-weight: bold;
+    pointer-events: none;
+}
+.nav-banner{
+    height: 25vh;
+}
+.portal{
+    position: absolute;
+
+    scale: 60%;
+    left: 125%;
+    top: 42%;
+    height: 200px;
+}
+
+.go-to-vs-background{
+    position: absolute;
+
+    width: 45vh;
+    height: 30vh;
+    top:30%;
+    right: -60%;
+    border-color: black;
+    border-radius: 20px;
+    background-color: #282c34;
+}
+.greeting-section{
+    position: fixed;
+    top:30%;
+    left: 30%;
+    width: 10px;
+    margin: 50px;
+}
+.greeting-animation{
+
+
+    margin-top:10%;
+
+
+    margin-left: 90%;
+    margin-right: 80%;
+
+    scale: 25%;
+}
+
+.welcome-section {
+    text-align: start;
+    width: 1000px;
+
+}
+
+.character-image {
+    width: 80px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+.item{
+    position: relative;
+    color: var(--background-color);
+    margin-top: 10px;
+
+
+
+    font-size: 1.3rem;
+
+}
+.frameworks-libraries{
+    position: relative;
+    color: var(--secondary-color);
+
+
+
+    font-size: 1.0rem;
+
+}
+.item2{
+    width: 500px;
+
+    text-align: start;
+    font-size: 1.0rem;
+
+    color: var(--secondary-color);
+    line-height: 1.4;
+
+
+
+
+
+}
+.item3{
+    width: 500px;
+
+    text-align: start;
+    line-height: 1.4;
+
+    font-size: 0.8rem;
+    color: #944FE3;
+
+
+
+}
+
+.welcome-text {
+    width: 4000px;
+    font-size: 1.6rem;
+    color: var(--primary-color);
+
+    margin-top:50px;
+    text-align: start;
+
+}
+
+.home-icon-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.home-icon {
+    padding: 10px;
+    width: 60px;
+    margin-left: 350px;
+    position: fixed;
+    height: auto;
+    scale: 100%;
+    right: 40%;
+
+}
+
+.home-text {
+    font-size: 1rem;
+    margin-top: 50px;
+    color: var(--primary-color);
+    margin-left: 50px;
+
+
+}
+
+.dropdown {
+    position: fixed;
+
+}
+
+.dropdown-toggle {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.dropdown-menu {
+    display: block;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-item {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-item:hover {
+    background-color: #ddd;
+    cursor: grab;
+}

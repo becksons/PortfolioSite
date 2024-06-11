@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+.virtual-space {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Press Start 2P', cursive;
+    height: 100vh;
+    background-color: #21212e;
+    overflow: hidden;
+    transition: transform 0.3s ease, filter 0.3s ease;
+    cursor: pointer;
+
+}
+
+.virtual-space:active {
+    cursor: pointer;
+}
+
+.room-items img:hover {
+    transform: scale(1.1);
+    filter: brightness(1.2);
+}
+
+
+.welcometovs-text{
+    width: 400px;
+    color: #7be934;
+    left: 0%;
+    margin: 50px;
+    top: 10%;
+    font-size: 2rem;
+    line-height: 1.4;
+    position: relative;
+}
+.welcometovs-img{
+    scale: 50%;
+    top:50%;
+    left: 10%;
+    position: absolute;
+}
+.welcometovs-section{
+    position: absolute;
+    top:10%;
+    left: 0%;
+}
+
+.vs-navarrows{
+    scale:20%;
+
+
+    position: relative;
+    top:-15%;
+}
+
+.leoonseal{
+
+    scale:15%;
+
+    position: absolute;
+    top:-30%;
+    left: 6%;
+
+    border: 105px solid #000000;
+
+}
+
+.saturn-poster{
+    scale:20%;
+    position: absolute;
+    top:10%;
+    left: 22%;
+}
+
+.welcometovs-text2{
+    width: 400px;
+    color:#5b1aa6;
+    align-content: center;
+    text-align: center;
+
+    left: 7.5%;
+    top:20%;
+    line-height: 1.3;
+    position: absolute;
+
+}
+
+
+.plant{
+
+    scale:40%;
+    top:15%;
+    right:75%;
+
+    margin: 400px;
+
+}
+
+
+.virtual-space-container {
+    position: fixed;
+    width: 8000px;
+    z-index: 1;
+    height: 350vh;
+    left: -60%;
+    top: -16%;
+
+    right: 4000px;
+    cursor: pointer;
+    scale: 90%;
+    background:#3a4a4a;
+
+    background-size: cover;
+    background: url('../assets/virtualspacebackground.png') no-repeat center center;
+    padding: 20px;
+    overflow: hidden;
+
+}
+
+
+
+.virtual-space-container img {
+    position: absolute;
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+}
+
+
+
+.file-cabinet{
+    right:11%;
+    top:56%;
+    scale: 150%;
+}
+
+
+
+.scroll-container {
+    overflow-y: auto;
+}
+
+.scroll-section {
+    position: relative;
+    width: 1000px;
+    height: 2500px;
+    scale: 30%;
+    background-size:contain;
+}
+
+.desk{
+    scale: 65%;
+    right: 20%;
+    top:10%;
+
+}
+.background{
+    width: 520%;
+    height: 80%;
+    left: 200px;
+    z-index: 0;
+
+
+}
+.vinyls{
+    scale: 80%;
+    left: 36%;
+
+
+}
+.target{
+
+    right: 5%;
+
+
+}
+.bow{
+    right: -3%;
+    scale: 80%;
+    top:30%;
+
+
+}
+
+.arrows{
+    right: -3%;
+    top:32%;
+    scale: 75%;
+}
+
+.easel {
+
+    height: auto;
+    width: auto;
+    scale: 280%;
+    left: 16%;
+
+    top:30%;
+
+
+
+}
+
+.guitars {
+    width: 70%;
+    height: auto;
+    position: absolute;
+    scale: 80%;
+    top:33%;
+    left: 25%;
+}
+.bass {
+    width: 70%;
+    height: auto;
+    position: absolute;
+    scale: 70%;
+    top: 33%;
+    left: 28%;
+}
+
+
+
+
+.window {
+    top: 10%;
+    right: 5%;
+    width: 15vw;
+    height: auto;
+}
+.animation {
+    top: 60%;
+    left: 60%;
+    width: 150px;
+}
+.scroll-container {
+    overflow-y: auto;
+}
