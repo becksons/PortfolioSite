@@ -3,8 +3,8 @@
     display: inline-block;
     right: -20px;
     top: 20px;
+    overflow: hidden;
      margin: 30px;
-
 }
 
 .dropdown-button {
@@ -19,8 +19,10 @@
     position: relative;
     z-index: 2;
     cursor: pointer;
+    overflow: hidden;
     font-family: 'Press Start 2P', cursive;
 }
+
 .dropdown-button:hover{
     background-color: #5106a7;
 }
